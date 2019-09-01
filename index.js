@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
+<html>
+
+<head>
     <title>
-      
+      Chocolates are my favorite!
     </title>
-  </head>
-  <body>
-  <script type="text/javascript">
-
-  document.write("Welcome to our page " + userName);
-
+  <script>
+function welcomeMessage() {
+    document.open();
+    document.write("Welcome to our chocolate store, like Vosges Haut-Chocolat but better. What do you want  " + userName);
+    document.close();
+}
 </script>
-  </body>
+  </head>
+  
+<body onload="welcomeMessage();">
+  <p>Testing One Two.</p>
+</body>
 </html>
